@@ -22,7 +22,7 @@ public class LookAtPlayer : MonoBehaviour
 
     private void Awake()
     {
-        cameraObject = FindObjectOfType<XROrigin>().Camera.gameObject;
+        cameraObject = FindAnyObjectByType<XROrigin>().Camera.gameObject;
         originalRotation = transform.eulerAngles;
     }
 
