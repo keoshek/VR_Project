@@ -40,8 +40,8 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - HouseModel
+  - MeasuringStick
+  - Clipboard
   - Hats
   - Teleport
