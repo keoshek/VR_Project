@@ -8,6 +8,8 @@ using UnityEngine.Events;
 /// </summary>
 public class ShowMessageFromList : MonoBehaviour
 {
+    [SerializeField] private bool startAtStart;
+
     [Tooltip("The text mesh the message is output to")]
     public TextMeshProUGUI messageOutput = null;
 
@@ -21,7 +23,7 @@ public class ShowMessageFromList : MonoBehaviour
 
     private void Start()
     {
-        ShowMessage();
+        if (startAtStart) ShowMessage();
     }
 
     public void NextMessage()
