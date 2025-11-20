@@ -1,10 +1,12 @@
 using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem.Utilities;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField] private GameObject nextButton;
     [SerializeField] private LevelAction[] levelActions;
 
 
@@ -23,7 +25,9 @@ public class LevelManager : MonoBehaviour
 
         if (newIndex >= actionIndex)
         {
-            levelActions[actionIndex].InvokeAction();
+            LevelAction action = levelActions[actionIndex];
+            nextButton.SetActive(action.NextButtonVisibility);
+            action.Event?.Invoke();
         }
     }
 
@@ -32,7 +36,19 @@ public class LevelManager : MonoBehaviour
     {
         actionIndex = value;
 
-        levelActions[value].InvokeAction();
+        LevelAction action = levelActions[actionIndex];
+        nextButton.SetActive(action.NextButtonVisibility);
+        action.Event?.Invoke();
+    }
+
+
+    public void QuitApplication()
+    {
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }
 
@@ -41,11 +57,6 @@ public class LevelManager : MonoBehaviour
 public class LevelAction
 {
     [TextArea(1, 5)] public string Description;
-
+    public bool NextButtonVisibility;
     public UnityEvent Event;
-
-    public void InvokeAction()
-    {
-        Event?.Invoke();
-    }
 }
