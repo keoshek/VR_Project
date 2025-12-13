@@ -2,10 +2,10 @@ using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.InputSystem.Utilities;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField] private int startIndex;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private LevelAction[] levelActions;
 
@@ -15,6 +15,8 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        actionIndex = startIndex;
+
         InvokeActionAtIndex(actionIndex);
     }
 
@@ -26,7 +28,7 @@ public class LevelManager : MonoBehaviour
         if (newIndex >= actionIndex)
         {
             LevelAction action = levelActions[actionIndex];
-            nextButton.SetActive(action.NextButtonVisibility);
+            if (nextButton != null) nextButton.SetActive(action.NextButtonVisibility);
             action.Event?.Invoke();
         }
     }
@@ -37,7 +39,7 @@ public class LevelManager : MonoBehaviour
         actionIndex = value;
 
         LevelAction action = levelActions[actionIndex];
-        nextButton.SetActive(action.NextButtonVisibility);
+        if (nextButton != null) nextButton.SetActive(action.NextButtonVisibility);
         action.Event?.Invoke();
     }
 

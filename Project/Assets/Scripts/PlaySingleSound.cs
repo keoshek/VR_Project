@@ -21,4 +21,21 @@ public class PlaySingleSound : MonoBehaviour
             onPlayEnd?.Invoke();
         }
     }
+
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.clip = clip;
+
+        audioSource.Play();
+
+        StartCoroutine(wait());
+
+        IEnumerator wait()
+        {
+            while (audioSource.isPlaying) yield return null;
+
+            onPlayEnd?.Invoke();
+        }
+    }
 }

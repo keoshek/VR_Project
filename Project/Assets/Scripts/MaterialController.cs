@@ -26,7 +26,7 @@ public class MaterialController : MonoBehaviour
     }
 
 
-    public void SetMaterialType(SurfaceType type)
+    private void SetMaterialType(SurfaceType type)
     {
         _surfaceType = type;
 
@@ -35,7 +35,26 @@ public class MaterialController : MonoBehaviour
             item.ChangeMaterialsToSurfaceType(_surfaceType);
         }
     }
+
+
+    public void SetOpaque()
+    {
+        SetMaterialType(SurfaceType.Opaque);
+    }
+
+
+    public void SetTransparent()
+    {
+        SetMaterialType(SurfaceType.Transparent);
+    }
+
+
+    public void SetInvisible()
+    {
+        SetMaterialType(SurfaceType.Invisible);
+    }
 }
+
 
 public enum SurfaceType
 {
