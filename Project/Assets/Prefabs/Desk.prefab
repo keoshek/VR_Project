@@ -74,6 +74,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Monitor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1575109544526287443, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2241774648796766561, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.4389999
@@ -114,16 +118,64 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3225096546645065013, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d737033db1052724591b21cc0011d55d, type: 3}
+    - target: {fileID: 7315985665460968810, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2098349938465805149, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5816860886256410462}
+    - targetCorrespondingSourceObject: {fileID: 5873972914236154798, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6844300806235876402}
   m_SourcePrefab: {fileID: 100100000, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+--- !u!1 &1986626633191983593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5873972914236154798, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+  m_PrefabInstance: {fileID: 5338279980444084807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6844300806235876402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986626633191983593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40b264eabf70540ad6661f2a3f2c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasGroupController
 --- !u!4 &6127432554865953574 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2241774648796766561, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
   m_PrefabInstance: {fileID: 5338279980444084807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6272308653832108314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2098349938465805149, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+  m_PrefabInstance: {fileID: 5338279980444084807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5816860886256410462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272308653832108314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40b264eabf70540ad6661f2a3f2c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasGroupController
 --- !u!1001 &5349231046109045401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -302,6 +354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Monitor
       objectReference: {fileID: 0}
+    - target: {fileID: 1575109544526287443, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2241774648796766561, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.64100015
@@ -342,13 +398,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7315985665460968810, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2098349938465805149, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 821577999518416117}
+    - targetCorrespondingSourceObject: {fileID: 5873972914236154798, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4973460111411649842}
   m_SourcePrefab: {fileID: 100100000, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+--- !u!1 &820576835969275933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5873972914236154798, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+  m_PrefabInstance: {fileID: 6550430092132301747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4973460111411649842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820576835969275933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40b264eabf70540ad6661f2a3f2c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasGroupController
 --- !u!4 &5042817021328415442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2241774648796766561, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
   m_PrefabInstance: {fileID: 6550430092132301747}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5186206477498755310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2098349938465805149, guid: 8c82dc8b98321ae4a9fb2d7a79eb87c3, type: 3}
+  m_PrefabInstance: {fileID: 6550430092132301747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &821577999518416117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186206477498755310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40b264eabf70540ad6661f2a3f2c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasGroupController

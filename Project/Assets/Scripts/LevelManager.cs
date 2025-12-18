@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField] private bool autoStart;
     [SerializeField] private int startIndex;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private LevelAction[] levelActions;
@@ -15,9 +16,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        actionIndex = startIndex;
-
-        InvokeActionAtIndex(actionIndex);
+        if (autoStart) InvokeActionAtIndex(startIndex);
     }
 
 
@@ -34,7 +33,7 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    private void InvokeActionAtIndex(int value)
+    public void InvokeActionAtIndex(int value)
     {
         actionIndex = value;
 
