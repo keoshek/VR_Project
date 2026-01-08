@@ -28,6 +28,8 @@ public class MRICharacter : MonoBehaviour
     private readonly LazyAnimatorHash _animIDSpeed = new("Speed");
     private readonly LazyAnimatorHash _animIDLying = new("Lying");
     private readonly LazyAnimatorHash _animIDLocomotion = new("Locomotion");
+    private bool walkingToBed;
+    private bool walkingToInitialPos;
 
 
     private void LateUpdate()
@@ -51,6 +53,9 @@ public class MRICharacter : MonoBehaviour
 
     public void WalkToBed()
     {
+        if (walkingToBed) return;
+
+        walkingToBed = true;
         animator.Play(_animIDLocomotion);
         aiPath.maxSpeed = walkSpeed;
         destinationSetter.target = bedWalkTarget;
@@ -69,6 +74,8 @@ public class MRICharacter : MonoBehaviour
             ResetWalk();
 
             LieOnBed();
+
+            walkingToBed = false;
         }
     }
 
@@ -104,6 +111,9 @@ public class MRICharacter : MonoBehaviour
 
     public void GetUpAndWalkToInitialPosition()
     {
+        if (walkingToInitialPos || !gameObject.activeSelf) return;
+
+        walkingToInitialPos = true;
         transform.SetPositionAndRotation(bedWalkTarget.position, bedWalkTarget.rotation);
         EnableCollider(true);
 
@@ -125,6 +135,10 @@ public class MRICharacter : MonoBehaviour
             ResetWalk();
 
             gameObject.SetActive(false);
+
+            transform.SetPositionAndRotation(initialPosition.position, initialPosition.rotation);
+
+            walkingToInitialPos = false;
         }
     }
 }

@@ -2,6 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -50,6 +51,12 @@ public class LevelManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+
+    public void RestartApplication()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
 
