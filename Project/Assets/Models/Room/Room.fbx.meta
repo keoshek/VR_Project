@@ -219,6 +219,71 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: wood_dark
     second: {fileID: 2100000, guid: c73221155ae28e34c8e2d3d23058ce5b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2800000, guid: ba2f14b29ddaac14b92b72e39feecdb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Foam
+    second: {fileID: 2800000, guid: 9ad335001ce42e84080c8f197aea3c0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Furniture
+    second: {fileID: 2800000, guid: 6d83ff8649ee9b24fba9c3e822d605b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Others_reception_chairs
+    second: {fileID: 2800000, guid: 92d4caa1e8ea7b54a97dd20690545df3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reception_desk_doors
+    second: {fileID: 2800000, guid: 7b0df6a47f67f0b43858da0fa3d13688, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Waiting_room
+    second: {fileID: 2800000, guid: 64db95e475796f14192a2d9fadb27ee3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wall_ceiling
+    second: {fileID: 2800000, guid: b31f596535f75ab439ec66f418988bcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2800000, guid: c03a536f901f6c146a4f6b1b74f38441, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bark2
+    second: {fileID: 2800000, guid: 878572d983bd94b4eb3e6c2922f87272, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cypressbark220b
+    second: {fileID: 2800000, guid: fbd85b3abc84946459b9bd286a8050be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: istockphoto-590618818-612x612
+    second: {fileID: 2800000, guid: ef9bf7bcfc5a04f46b815b58646360d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leaves
+    second: {fileID: 2800000, guid: 50c79642dfc2f08438ea7312a0240498, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pots
+    second: {fileID: 2800000, guid: e0b75d5490e979a44964b8c81e57a5cd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -306,7 +371,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.008
+    globalScale: 0.8
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
