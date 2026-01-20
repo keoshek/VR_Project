@@ -8,7 +8,6 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private bool autoStart;
     [SerializeField] private int startIndex;
-    [SerializeField] private GameObject nextButton;
     [SerializeField] private LevelAction[] levelActions;
 
 
@@ -28,7 +27,6 @@ public class LevelManager : MonoBehaviour
         if (newIndex >= actionIndex)
         {
             LevelAction action = levelActions[actionIndex];
-            if (nextButton != null) nextButton.SetActive(action.NextButtonVisibility);
             action.Event?.Invoke();
         }
     }
@@ -39,7 +37,6 @@ public class LevelManager : MonoBehaviour
         actionIndex = value;
 
         LevelAction action = levelActions[actionIndex];
-        if (nextButton != null) nextButton.SetActive(action.NextButtonVisibility);
         action.Event?.Invoke();
     }
 
@@ -65,6 +62,5 @@ public class LevelManager : MonoBehaviour
 public class LevelAction
 {
     [TextArea(1, 5)] public string Description;
-    public bool NextButtonVisibility;
     public UnityEvent Event;
 }

@@ -13689,7 +13689,7 @@ MonoBehaviour:
   - ID: audio-1
     Events:
     - Description: show main magnet
-      Time: 2.9
+      Time: 2.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -13718,7 +13718,7 @@ MonoBehaviour:
               m_BoolArgument: 0
             m_CallState: 2
     - Description: show rf system
-      Time: 4.5
+      Time: 4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -13747,7 +13747,7 @@ MonoBehaviour:
               m_BoolArgument: 0
             m_CallState: 2
     - Description: show gradient system
-      Time: 6.5
+      Time: 5.1
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -13776,7 +13776,7 @@ MonoBehaviour:
               m_BoolArgument: 0
             m_CallState: 2
     - Description: show shim system
-      Time: 8.2
+      Time: 6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -13805,7 +13805,7 @@ MonoBehaviour:
               m_BoolArgument: 0
             m_CallState: 2
     - Description: show computer system
-      Time: 10.5
+      Time: 8.1
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -13944,40 +13944,6 @@ MonoBehaviour:
   - ID: audio-7
     Events:
     - Description: show A
-      Time: 10.5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show B
-      Time: 12.5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show C
       Time: 15
       Event:
         m_PersistentCalls:
@@ -13994,8 +13960,42 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
+    - Description: show B
+      Time: 16.5
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show C
+      Time: 19
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
     - Description: show D
-      Time: 17
+      Time: 21.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -14025,15 +14025,15 @@ MonoBehaviour:
             m_CallState: 2
   - ID: audio-9
     Events:
-    - Description: show main magnet
+    - Description: show A
       Time: 3.5
       Event:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 7065657803424273678}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetTransparent
-            m_Mode: 1
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14042,161 +14042,14 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 4590540395935832273}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetOpaque
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show rf system
-      Time: 5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 4590540395935832273}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetInvisible
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 3913469427499964154}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetOpaque
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show gradient system
-      Time: 7
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 3913469427499964154}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetInvisible
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 6796775628817224028}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetOpaque
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show shim system
+    - Description: show B
       Time: 8.5
       Event:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 6796775628817224028}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetInvisible
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 8582801783196041881}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetOpaque
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: show computer system
-      Time: 11
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 8582801783196041881}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetInvisible
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 7065657803424273678}
-            m_TargetAssemblyTypeName: MaterialController, Assembly-CSharp
-            m_MethodName: SetOpaque
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Play
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Play
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -14206,38 +14059,14 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
-            m_MethodName: Play
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: enable images
-      Time: 13.5
+    - Description: show C
+      Time: 13.2
       Event:
         m_PersistentCalls:
           m_Calls:
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -14247,26 +14076,26 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: disable videos
-      Time: 16
+    - Description: show D
+      Time: 16.7
       Event:
         m_PersistentCalls:
           m_Calls:
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -14276,27 +14105,68 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-    - Description: unshow computer system
-      Time: 17
+  - ID: audio-11
+    Events:
+    - Description: show A
+      Time: 3.7
       Event:
         m_PersistentCalls:
           m_Calls:
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Stop
-            m_Mode: 1
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show B
+      Time: 7.1
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show C
+      Time: 10.6
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show D
+      Time: 12.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14306,20 +14176,8 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Stop
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -14329,9 +14187,161 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
+  - ID: audio-13
+    Events:
+    - Description: show A
+      Time: 3.5
+      Event:
+        m_PersistentCalls:
+          m_Calls:
           - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: CanvasGroupController, Assembly-CSharp
-            m_MethodName: SetVisibilitySmooth
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show B
+      Time: 6.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show C
+      Time: 9.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show D
+      Time: 12.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - ID: audio-15
+    Events:
+    - Description: show A
+      Time: 4
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show B
+      Time: 6.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show C
+      Time: 10
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - Description: show D
+      Time: 12.7
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -35736,10 +35746,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4742214158621195267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3971124961094342024
 CanvasRenderer:
@@ -57847,19 +57857,27 @@ PrefabInstance:
     m_TransformParent: {fileID: 7681605421987832570}
     m_Modifications:
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: functions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressAudioSource
       value: 
       objectReference: {fileID: 372038189707264440}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
@@ -57871,20 +57889,44 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextAction
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: NextAction
+      value: WalkToBed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySound
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: MRICharacter, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: PlaySingleSound, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -57892,6 +57934,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1117115664695456147, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
@@ -57952,7 +57998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346757566681790342, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57986,6 +58032,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 7681605421987832570}
     m_Modifications:
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: functions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressAudioSource
       value: 
       objectReference: {fileID: 777476181921190687}
@@ -57995,7 +58045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -58015,7 +58065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextAction
+      value: MoveBed
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -58023,11 +58073,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: MRIGroup, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MoveOutside
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -58095,7 +58149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346757566681790342, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329051561949203624, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -58133,12 +58187,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 7681605421987832570}
     m_Modifications:
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: functions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressAudioSource
       value: 
       objectReference: {fileID: 2385881236341980567}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -58162,19 +58220,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextAction
+      value: GetUpAndWalkToInitialPosition
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: NextAction
+      value: PlaySound
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: MRICharacter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: PlaySingleSound, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -58242,7 +58308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346757566681790342, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329051561949203624, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -58280,6 +58346,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 7681605421987832570}
     m_Modifications:
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: functions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressAudioSource
       value: 
       objectReference: {fileID: 3820253824014797862}
@@ -58289,7 +58359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -58309,7 +58379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextAction
+      value: MoveBed
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -58317,11 +58387,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelManager, Assembly-CSharp
+      value: MRIGroup, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MoveInside
       objectReference: {fileID: 0}
     - target: {fileID: 1043443861466345500, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -58389,7 +58463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346757566681790342, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329051561949203624, guid: ad5b3f7709024994faa2a3e39f501484, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
