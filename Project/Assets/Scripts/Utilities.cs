@@ -1,4 +1,7 @@
+using System;
+using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 /*using UnityEngine.Localization.Settings;
 using UnityEngine.Localization;*/
 
@@ -385,6 +388,23 @@ namespace Ata.Utils
                 result[i] = chars[Random.Range(0, chars.Length)];
             }
             return new string(result);
+        }
+
+
+        public static IEnumerator RunAlternating(float x, Action action1, Action action2)
+        {
+            bool alternater = true;
+
+            while (true)
+            {
+                if (alternater)
+                    action1?.Invoke();
+                else
+                    action2?.Invoke();
+
+                yield return new WaitForSeconds(x);
+                alternater = !alternater;
+            }
         }
     }
 }

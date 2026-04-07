@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField] private bool _isSimulationRoom;
     [SerializeField] private bool autoStart;
     [SerializeField] private int startIndex;
     [SerializeField] private LevelAction[] levelActions;
+    [SerializeField] private Tablet tablet;
+
+
+    public bool IsSimulationRoom => _isSimulationRoom;
 
 
     private int actionIndex;
@@ -17,6 +22,8 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         if (autoStart) InvokeActionAtIndex(startIndex);
+
+        if (tablet != null) tablet.Initialize(this);
     }
 
 
@@ -51,9 +58,15 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    public void RestartApplication()
+    public void ReloadCurrentScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
+    public void LoadScene(string name)
+    {
+        SceneManager.LoadScene(name);
     }
 }
 

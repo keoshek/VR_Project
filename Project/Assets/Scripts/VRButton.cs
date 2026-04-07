@@ -1,3 +1,4 @@
+using Ata.Utils;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,8 +10,13 @@ public class VRButton : MonoBehaviour
     [SerializeField] private bool functions;
     [SerializeField] private AudioSource onPressAudioSource;
 
+    [Header("Blink")]
+    [SerializeField] private float blinkPeriod;
+    [SerializeField] private Material blinkMaterial;
+
 
     private bool deadTimeActive;
+    Coroutine blinkCoroutine = null;
 
 
     private void OnTriggerEnter(Collider other)
@@ -46,5 +52,29 @@ public class VRButton : MonoBehaviour
     public void SetFunctionality(bool value)
     {
         functions = value;
+    }
+
+
+    public void StartBlinking()
+    {
+        StopBlinking();
+
+        blinkCoroutine = StartCoroutine(Utilities.RunAlternating(blinkPeriod, () => { EnableEmission(true); }, () => { EnableEmission(false); }));
+    }
+
+
+    public void StopBlinking()
+    {
+        if (blinkCoroutine != null) StopCoroutine(blinkCoroutine);
+        EnableEmission(false);
+    }
+
+
+    private void EnableEmission(bool value)
+    {
+        if (value)
+            blinkMaterial.EnableKeyword("_EMISSION");
+        else
+            blinkMaterial.DisableKeyword("_EMISSION");
     }
 }

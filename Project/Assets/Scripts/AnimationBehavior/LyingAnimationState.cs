@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LyingAnimationState : StateMachineBehaviour
 {
-    private MRICharacter character;
+    private CharacterWalkingLying character;
     private bool initialized;
 
     
@@ -10,7 +10,7 @@ public class LyingAnimationState : StateMachineBehaviour
     {
         if (!initialized) 
         {
-            character = animator.GetComponent<MRICharacter>();
+            character = animator.GetComponent<CharacterWalkingLying>();
             initialized = true;
         }
     }
