@@ -9,20 +9,77 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 0b59d1adc83e5d845ae06fcd4a0b69a6
   - enabled: 1
-    path: Assets/Scenes/MRI.unity
-    guid: acbc82d5bc57731449735fe2afa23414
+    path: Assets/Scenes/Anesthesia.unity
+    guid: 5b0e1063cf2630d429f861cf3ed65dd6
+  - enabled: 1
+    path: Assets/Scenes/Automated Cell Counter.unity
+    guid: fa9c5a3a963e4cb4baee77647a072b92
+  - enabled: 1
+    path: Assets/Scenes/Automated Dispensing Cabinet.unity
+    guid: 43ba90be2b37bf44a8566fce0bbee07d
+  - enabled: 1
+    path: Assets/Scenes/Continuous Glucose Monitoring.unity
+    guid: 3e3353f2b6b38be4f95d99f63cfab403
+  - enabled: 1
+    path: Assets/Scenes/CT.unity
+    guid: de25d4b8d3bebfe4ba8641a3d06429b4
+  - enabled: 1
+    path: Assets/Scenes/Defibrillator.unity
+    guid: d5af9dac8814baf4db79d21a8db0ed47
+  - enabled: 1
+    path: Assets/Scenes/Dialysis.unity
+    guid: 26cc27d845907fc439cf866e38c95425
+  - enabled: 1
+    path: Assets/Scenes/Digital Subtraction Angiography.unity
+    guid: 7a6d9876c1ccbe647be79d5dfd5ed670
   - enabled: 1
     path: Assets/Scenes/EEG.unity
     guid: e2766f698869b0246802b73864590b96
   - enabled: 1
-    path: Assets/Scenes/Ultrasound.unity
-    guid: 7619c6379e4c72b47bdce5550f9da964
-  - enabled: 0
+    path: Assets/Scenes/EMG.unity
+    guid: 4a8c8e3aead2af64797729f29153c40a
+  - enabled: 1
+    path: Assets/Scenes/Gamma Knife Radiosurgery.unity
+    guid: 9d0f07b7230ca824caf0007387ae9503
+  - enabled: 1
     path: Assets/Scenes/HBOT.unity
     guid: d92026fa7385bd642a24abfe6cc75321
-  - enabled: 0
-    path: Assets/Scenes/CT.unity
-    guid: de25d4b8d3bebfe4ba8641a3d06429b4
+  - enabled: 1
+    path: Assets/Scenes/Heart Lung Machine.unity
+    guid: 45b2ea60d7c5cdc40ad0ed00a793bd53
+  - enabled: 1
+    path: Assets/Scenes/LINAC.unity
+    guid: 5d14483c49099cb46907ec94acf96f18
+  - enabled: 1
+    path: Assets/Scenes/MRI.unity
+    guid: acbc82d5bc57731449735fe2afa23414
+  - enabled: 1
+    path: Assets/Scenes/Multiparameter Patient Monitor.unity
+    guid: 06033e9afd3a3154286274d52b1c8928
+  - enabled: 1
+    path: Assets/Scenes/PET.unity
+    guid: 082ea645c9aff1d4da172d76a7e4624e
+  - enabled: 1
+    path: Assets/Scenes/Premature Infant Incubator.unity
+    guid: 788beddc1fd5f7d4f8b6f73849e58858
+  - enabled: 1
+    path: Assets/Scenes/Surgical Navigation System.unity
+    guid: f13ea4b7429361640890fb7ac101fc62
+  - enabled: 1
+    path: Assets/Scenes/Surgical Robotic System.unity
+    guid: 11467e656519759498ea8716cd7e46fb
+  - enabled: 1
+    path: Assets/Scenes/Telemedicine Robot.unity
+    guid: df259a449f411d04390c1630ce17d308
+  - enabled: 1
+    path: Assets/Scenes/Ultrasound.unity
+    guid: 7619c6379e4c72b47bdce5550f9da964
+  - enabled: 1
+    path: Assets/Scenes/Ventilator.unity
+    guid: f85b69e75769e744291637743605d459
+  - enabled: 1
+    path: Assets/Scenes/XRAY.unity
+    guid: dc2952d2f9451d64a91c49f46857a2fb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e3f999c3abbcc41c99f610f88fbd07bd, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 5d38af9b0bb79f242a67cf0b7307cace, type: 2}

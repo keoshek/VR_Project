@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Howpsuz we real wagtda \u015Fekil ber\xFD\xE4r"
+  m_text: "\xC7. Di\u0148e bir ugurda tok ge\xE7\xFD\xE4r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5369,7 +5369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ultrases barlagyny\u0148 artykma\xE7lygy n\xE4me?"
+  m_text: "Biphasic zarbany\u0148 artykma\xE7lygy n\xE4me?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -5683,7 +5683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. Sensor (transduser)
+  m_text: B. Kondensator
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6086,7 +6086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. Magnit
+  m_text: "B. Magnit me\xFDdany d\xF6red\xFD\xE4r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7626,7 +7626,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: D. Printer
+  m_text: "D. Batare\xFDa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7993,7 +7993,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517470408}
+      - m_Target: {fileID: 1964525952}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -8165,31 +8165,31 @@ PrefabInstance:
       objectReference: {fileID: 1305506969}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.685
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.091
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.705
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.12515
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12515001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.69594365
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6959436
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8201,7 +8201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5168807475850241442, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -20.389008
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5338219769831396019, guid: 2a94a83d795bb1c49a4c5f2690098fbb, type: 3}
       propertyPath: m_AnchorMax.y
@@ -9520,7 +9520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. Monitor
+  m_text: A. Elektrod
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10190,7 +10190,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ultrases enjamyndaky tolkunlary d\xF6red\xFD\xE4n esasy b\xF6lek ha\xFDsy?"
+  m_text: "Defibril\xFDatory\u0148 elektrik energi\xFDasyny wagtla\xFDyn sakla\xFDan
+    b\xF6legi ha\xFDsy?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -13894,6 +13895,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 190337371192613307, guid: 7b3f410730b3ab345b8a08dc056d5c33, type: 3}
   m_PrefabInstance: {fileID: 678610652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &678610654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7407723530800449126, guid: 7b3f410730b3ab345b8a08dc056d5c33, type: 3}
+  m_PrefabInstance: {fileID: 678610652}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4db386cd096a8c4ab73380289d76e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Highlighter
 --- !u!1 &680489927
 GameObject:
   m_ObjectHideFlags: 0
@@ -14825,7 +14837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. Magnit me\xFDdanyny d\xF6retmek"
+  m_text: "D. Temperatura \xF6l\xE7emek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17510,7 +17522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Bedeni sowatmak"
+  m_text: "\xC7. Oksigen bermek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23590,7 +23602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. Gradient ulgamy
+  m_text: "A. Di\u0148e lukman dolandyryp bil\xFD\xE4r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24902,7 +24914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. Di\u0148e s\xFC\u0148kleri g\xF6rkez\xFD\xE4r"
+  m_text: "B. Has az energi\xFDa bilen netijeli bol\xFDar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26105,7 +26117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1196738626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31528,8 +31540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ultrases tolkunlaryny elektrik signalyna \xF6w\xFCr\xFD\xE4n gurlu\u015F
-    n\xE4me?"
+  m_text: "AED enjamyny\u0148 a\xFDratynlygy n\xE4me?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -32455,7 +32466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: D. Lazer
+  m_text: "D. Rentgen \u015F\xF6hlelerini ulan\xFDar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -33837,7 +33848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 1
+  correctAnswer: 0
   buttonImage: {fileID: 1517470410}
 --- !u!114 &1517470409
 MonoBehaviour:
@@ -33884,6 +33895,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1517470408}
+        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
+        m_MethodName: ProcessAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1964525952}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -35439,7 +35462,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1517470408}
+      - m_Target: {fileID: 1964525952}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -41137,7 +41160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. Gan akymyny\u0148 tizligini \xF6l\xE7emek"
+  m_text: "B. \xDD\xFCrek ritmini elektrik zarbasy bilen dikeltmek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41897,7 +41920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Dolandyry\u015F paneli"
+  m_text: "\xC7. Ekran"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -42567,7 +42590,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Piezoelektrik kristallar"
+  m_text: "\xC7. \xDD\xFCrek ritmini awtomatiki analiz ed\xFD\xE4r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -43504,7 +43527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A. Ionla\u015Fdyryjy \u015F\xF6hlelenme ulan\xFDar"
+  m_text: "A. K\xF6p energi\xFDa sarp ed\xFD\xE4r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -44684,7 +44707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 0
+  correctAnswer: 1
   buttonImage: {fileID: 1964525953}
 --- !u!114 &1964525953
 MonoBehaviour:
@@ -44761,18 +44784,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1964525952}
-        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
-        m_MethodName: ProcessAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1517470408}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -45326,7 +45337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Doppler re\u017Eimini\u0148 esasy wezipesi n\xE4me?"
+  m_text: "Defibril\xFDasi\xFDany\u0148 esasy maksady n\xE4me?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -46441,7 +46452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A. S\xFC\u0148kleri g\xF6rkezmek"
+  m_text: "A. Gan basy\u015Fyny peseltmek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -46611,7 +46622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. Di\u0148e operasi\xFDa wagtynda ulanyl\xFDar"
+  m_text: "D. Elektrik saklama\xFDar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -48268,40 +48279,12 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 205d4b1b512a1904bbf216a4cb6dabc8, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 3bc546ba411cce34a8c32f8d85ba0931, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
-  - Description: Instruct to press ON button on the device
-    Event:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Highlighter, Assembly-CSharp
-          m_MethodName: StartHighlight
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: VRButton, Assembly-CSharp
-          m_MethodName: SetFunctionality
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
           m_CallState: 2
   - Description: Main Lesson
     Event:
@@ -48312,48 +48295,12 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 9260510069f884a46a795bd487362397, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: d28700f1df4e44740b7db94a7a78613d, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 7486329131505342244}
-          m_TargetAssemblyTypeName: AudioEventTrigger, Assembly-CSharp
-          m_MethodName: StartEventListening
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: main-lesson
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 2638319716417692876}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: main-lesson
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 2638319716417692875}
-          m_TargetAssemblyTypeName: CharacterWalkingLying, Assembly-CSharp
-          m_MethodName: WalkToBed
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: main-lesson
-            m_BoolArgument: 1
           m_CallState: 2
   - Description: Test Question 1
     Event:
@@ -48364,7 +48311,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 3a58a369515534e4584add10d42b8d6f, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 12d26cb04d27f494d9f140667a94edde, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48383,7 +48330,7 @@ MonoBehaviour:
             m_StringArgument: audio-q1
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 678610654}
           m_TargetAssemblyTypeName: Highlighter, Assembly-CSharp
           m_MethodName: StartHighlight
           m_Mode: 1
@@ -48395,42 +48342,6 @@ MonoBehaviour:
             m_StringArgument: audio-q1
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-          m_MethodName: set_highlighted
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: audio-q1
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-          m_MethodName: set_highlighted
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: audio-q1
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-          m_MethodName: set_highlighted
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: audio-q1
-            m_BoolArgument: 0
-          m_CallState: 2
   - Description: Test Answer 1
     Event:
       m_PersistentCalls:
@@ -48440,7 +48351,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: e4b5631f4557f2240a33861ec0fd072e, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 5fd67488b9124ff4d89f10ead7cf6563, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48468,7 +48379,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 30ce71ba06c3b404184ac9cdc03d9519, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: dd61ed709c37f5041ac553c3635331c8, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48532,7 +48443,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6560c59ab86f6ad4699c92bba325c58f, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: e3e950f4251524e4989d4f50c2148b37, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48560,7 +48471,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 378c2f961d4d23e4d9b6b3d5997e7e1c, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 03e0ca0c453d0814e8d4b235443f9806, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48624,7 +48535,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: e269c52805cd7534a8b90fb7a359623e, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 534876736395d1349b5de01936a7d265, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48652,7 +48563,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6c127c4812f173d4e81a30b156d86ef5, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: f08fbb7f6097b8a418627c9efa003757, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48716,7 +48627,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: e734ea74a06c7334eb05eaa8a7fee59f, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: b2128f523d3efe84596125e83f299440, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -48755,18 +48666,6 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 2638319716417692875}
-          m_TargetAssemblyTypeName: CharacterWalkingLying, Assembly-CSharp
-          m_MethodName: GetUpAndWalkToInitialPosition
-          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -48927,22 +48826,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6757471236417408070, guid: 1c01f697f9953b94cbd2d49da0242554, type: 3}
   m_PrefabInstance: {fileID: 2638319716417692873}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2638319716417692875 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 800805217944760672, guid: 1c01f697f9953b94cbd2d49da0242554, type: 3}
-  m_PrefabInstance: {fileID: 2638319716417692873}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2638319716417692876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 763df038367a5c94fbf92c3ba7349b22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MRICharacter
---- !u!1 &2638319716417692876 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1561616927319376457, guid: 1c01f697f9953b94cbd2d49da0242554, type: 3}
-  m_PrefabInstance: {fileID: 2638319716417692873}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3992842356527320570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48957,7 +48840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.52
+      value: 0.48000002
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48965,23 +48848,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.415
+      value: -5.415
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98677284
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.16210929
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -48989,7 +48872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 18.659
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6961128303909042875, guid: c43b542d9fcc42b4e95138a982301632, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -49025,333 +48908,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventTrigger
   audioSource: {fileID: 7486329131505342247}
   eventSystems:
-  - ID: main-lesson
-    Events:
-    - Description: highlight sensor
-      Time: 37.5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight esasy ulgam
-      Time: 38.3
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight monitor
-      Time: 39.3
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight dolandyrysh panel
-      Time: 40.4
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight disk storage
-      Time: 41.6
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight sensor
-      Time: 43.2
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight esasy ulgam
-      Time: 79.5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight monitor
-      Time: 90.5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - Description: highlight dolandyrysh panel
-      Time: 100
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: HighlightPlus.HighlightEffect, Assembly-CSharp
-            m_MethodName: set_highlighted
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
   - ID: audio-q1
     Events:
     - Description: Enable UI
-      Time: 5.6
+      Time: 5.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49391,7 +48951,7 @@ MonoBehaviour:
               m_StringArgument: audio-7
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 0}
+          - m_Target: {fileID: 678610654}
             m_TargetAssemblyTypeName: Highlighter, Assembly-CSharp
             m_MethodName: StopHighlight
             m_Mode: 1
@@ -49404,7 +48964,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show A
-      Time: 10.8
+      Time: 12.3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49421,7 +48981,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 12.7
+      Time: 14
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49455,7 +49015,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 18.5
+      Time: 17.7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49503,7 +49063,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 8.1
+      Time: 8.7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49520,7 +49080,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 10
+      Time: 11.2
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49537,7 +49097,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 12.7
+      Time: 14.7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49568,7 +49128,7 @@ MonoBehaviour:
   - ID: audio-q3
     Events:
     - Description: show A
-      Time: 4.4
+      Time: 4.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49585,7 +49145,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 6.6
+      Time: 7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49602,7 +49162,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 9.6
+      Time: 11
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49619,7 +49179,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 11.4
+      Time: 13.6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49650,7 +49210,7 @@ MonoBehaviour:
   - ID: audio-q4
     Events:
     - Description: show A
-      Time: 4.3
+      Time: 5.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49667,7 +49227,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 7.3
+      Time: 7.9
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49684,7 +49244,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 9.9
+      Time: 11.5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -49701,7 +49261,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 13.9
+      Time: 14.4
       Event:
         m_PersistentCalls:
           m_Calls:
