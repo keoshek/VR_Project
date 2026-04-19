@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Gantri bilen stol bir wagtda hereket ed\xFD\xE4r"
+  m_text: "\xC7. Dokuma zeperlenmesi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. N\xE4sagy hereketsiz saklamak"
+  m_text: "D. Basy\u015F d\xF6retmek \xFC\xE7in"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -461,6 +461,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 190337371192613307, guid: 7b3f410730b3ab345b8a08dc056d5c33, type: 3}
   m_PrefabInstance: {fileID: 125142416}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &125142418 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7407723530800449126, guid: 7b3f410730b3ab345b8a08dc056d5c33, type: 3}
+  m_PrefabInstance: {fileID: 125142416}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4db386cd096a8c4ab73380289d76e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Highlighter
 --- !u!1 &169786001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1048,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Spiral KT-ni\u0148 a\xFDratynlygy n\xE4me?"
+  m_text: "Artykma\xE7 rentgen \u015F\xF6hlelenmesi n\xE4me howp d\xF6redip biler?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -1173,7 +1184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. Rentgen turbasy
+  m_text: B. Rentgen generatory
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1309,7 +1320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. Rentgen \u015F\xF6hlelerini d\xF6retmek"
+  m_text: "B. \u015Eekilleri a\xFDyrmak arkaly damarlary g\xF6rkezmek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1507,7 +1518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: D. RF sargy
+  m_text: D. Kompresor ulgamy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1895,7 +1906,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. Detektor
+  m_text: A. Monitor ulgamy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2031,8 +2042,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Komp\xFDuter tomografi\xFDasynda rentgen \u015F\xF6hlelerini d\xF6red\xFD\xE4n
-    b\xF6lek ha\xFDsy?"
+  m_text: "DSA ulgamynda rentgen \u015F\xF6hlelerini d\xF6red\xFD\xE4n esasy b\xF6lek
+    ha\xFDsy?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -2572,7 +2583,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Magnit me\xFDdany d\xF6retmek"
+  m_text: "\xC7. \u015Eekilleri seljermek we subtractsi\xFDa etmek \xFC\xE7in"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2708,7 +2719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. \u015Eekilleri rekonstruksi\xFDa etmek"
+  m_text: "B. Kislorod \xF6nd\xFCrmek \xFC\xE7in"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2844,7 +2855,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. Sowady\u015F ulgamy"
+  m_text: D. Gan akymyny azaltmak
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2955,7 +2966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 1
+  correctAnswer: 0
   buttonImage: {fileID: 780901907}
 --- !u!114 &780901907
 MonoBehaviour:
@@ -3032,6 +3043,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 780901906}
+        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
+        m_MethodName: ProcessAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1344190729}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -3145,7 +3168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Di\u0148e komp\xFDuter b\xF6legi"
+  m_text: "\xC7. Basy\u015Fy \xFDokarlandyrmak"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3276,7 +3299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 0
+  correctAnswer: 1
   buttonImage: {fileID: 850454231}
 --- !u!114 &850454230
 MonoBehaviour:
@@ -3323,18 +3346,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 850454228}
-        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
-        m_MethodName: ProcessAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1101423234}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -4725,7 +4736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A. \u015Eekili monitorda g\xF6rkezmek"
+  m_text: "A. \u015Eekilleri birle\u015Fdirmek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4836,7 +4847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 1
+  correctAnswer: 0
   buttonImage: {fileID: 1101423235}
 --- !u!114 &1101423235
 MonoBehaviour:
@@ -4913,6 +4924,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1101423234}
+        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
+        m_MethodName: ProcessAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 850454228}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -5074,7 +5097,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 780901906}
+      - m_Target: {fileID: 1344190729}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -5193,7 +5216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. Di\u0148e bit gatlak skanirlen\xFD\xE4r"
+  m_text: B. Angiogenez
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5862,7 +5885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Komp\xFDuter ulgamyny\u0148 wezipesi n\xE4me?"
+  m_text: "Komp\xFDuter ulgamy n\xE4me \xFC\xE7in ulanyl\xFDar?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -6051,7 +6074,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1101423234}
+      - m_Target: {fileID: 850454228}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -6450,7 +6473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4335094e8decf144b71d2e30f89ed25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestButton
-  correctAnswer: 0
+  correctAnswer: 1
   buttonImage: {fileID: 1344190731}
 --- !u!114 &1344190730
 MonoBehaviour:
@@ -6497,18 +6520,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1344190729}
-        m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
-        m_MethodName: ProcessAnswer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 780901906}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -6702,7 +6713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detektor ulgamyny\u0148 esasy wezipesi n\xE4me?"
+  m_text: "Subtractsi\xFDa n\xE4me bilen baglydyr?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -6838,7 +6849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. N\xE4sag stoluny herekete getirmek"
+  m_text: "D. Gan basy\u015Fyny \xFDokarlandyrmak"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7433,7 +7444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A. Radiasi\xFDa d\xF6retmek"
+  m_text: "A. \u015E\xF6hle \xF6nd\xFCrmek \xFC\xE7in"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8203,7 +8214,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 780901906}
+      - m_Target: {fileID: 1344190729}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -8419,7 +8430,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1101423234}
+      - m_Target: {fileID: 850454228}
         m_TargetAssemblyTypeName: TestButton, Assembly-CSharp
         m_MethodName: ProcessAnswer
         m_Mode: 1
@@ -8604,7 +8615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B. A\xFDlan\xFDan rentgen we detektor ulgamy"
+  m_text: "B. Damarlary a\xFDdy\u0148 g\xF6rkezmek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8740,7 +8751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Gradient ulgamy"
+  m_text: "\xC7. Pulsoksimetr"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8876,7 +8887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC7. Rentgen \u015F\xF6hlelerini\u0148 si\u0148dirili\u015Fini \xF6l\xE7emek"
+  m_text: "\xC7. Temperatura \xF6l\xE7emek"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9012,7 +9023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A. Stol hereket etme\xFD\xE4r"
+  m_text: "A. Bradikardi\xFDa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9445,7 +9456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gantri n\xE4hili gurlu\u015Fdyr?"
+  m_text: "Kontrast maddany\u0148 wezipesi n\xE4me?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
   m_sharedMaterial: {fileID: -6674944201535329505, guid: 500c8b014e8c041b8982d40b1db00225, type: 2}
@@ -9581,7 +9592,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A. Magnit halkasy
+  m_text: A. Kislorod bermek
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9717,7 +9728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D. Rentgen ulanylma\xFDar"
+  m_text: "D. Gipoglikemi\xFDa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10117,7 +10128,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 174350139af61d047b41e9fd655efbfc, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 7ab1bc19e10d35649bfad7fc6c6d241f, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10133,7 +10144,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 1c1cd8ed955cf2843be13a808865fd47, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: f90db3cb6ad9b964ea6a9a2a3b924a17, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10149,7 +10160,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6cb3f704032570b4e81a8335305ef73d, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 310c7f9bb84766849bb15484732918e4, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10168,7 +10179,7 @@ MonoBehaviour:
             m_StringArgument: audio-q1
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 125142418}
           m_TargetAssemblyTypeName: Highlighter, Assembly-CSharp
           m_MethodName: StartHighlight
           m_Mode: 1
@@ -10189,7 +10200,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 26a2ef19eaecf594a8277dbb4c719521, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 36cb2388e6edde24b901e83c04b7a4b7, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10217,7 +10228,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6bddc7e6340e92a4ea4145829da64fd8, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: c993219fe751df2419be96fb71e183ca, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10281,7 +10292,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 1612cdfe8de6dfa4a80c2212b0e6acd5, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 86bd946effb22304a9e2abd2da4fde7b, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10309,7 +10320,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: b0f6ada1ccaab5a45ba9cdd77cf55726, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: b1141f430e627aa4497b68beb2f3fe34, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10373,7 +10384,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: b66786857ed3c3140bc08f50b531aae1, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 45807ee9f84520846ae6f87a0d3a4329, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10401,7 +10412,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 16eaad3bd5ce9df4580d348df12a0ecf, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 921e9a0a87fd75847a5db602d9eb812a, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10465,7 +10476,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: eda366c22464d4d4fac18a9819257f90, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 31ce785b1f33c9649a60a50faa50de65, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10493,7 +10504,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: ca641f7afdf7da44b9baafc871a07e5f, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: 4a807fdfad2d49e499f8b305e4e6220b, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10557,7 +10568,7 @@ MonoBehaviour:
           m_MethodName: PlaySound
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 08ca0967564f1a24090782fcd29e762c, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: b28bef7fab7f78448b26a1e73e187298, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10747,7 +10758,7 @@ MonoBehaviour:
   - ID: audio-q1
     Events:
     - Description: Enable UI
-      Time: 4.7
+      Time: 5.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10787,7 +10798,7 @@ MonoBehaviour:
               m_StringArgument: audio-7
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 0}
+          - m_Target: {fileID: 125142418}
             m_TargetAssemblyTypeName: Highlighter, Assembly-CSharp
             m_MethodName: StopHighlight
             m_Mode: 1
@@ -10800,7 +10811,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show A
-      Time: 10
+      Time: 11.6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10817,7 +10828,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 12
+      Time: 13.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10834,7 +10845,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 14
+      Time: 15.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10851,7 +10862,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 16.2
+      Time: 17.3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10882,7 +10893,7 @@ MonoBehaviour:
   - ID: audio-q2
     Events:
     - Description: show A
-      Time: 5
+      Time: 4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10899,7 +10910,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 7.2
+      Time: 6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10916,7 +10927,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 9.8
+      Time: 9.3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10933,7 +10944,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 13
+      Time: 11.6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10964,7 +10975,7 @@ MonoBehaviour:
   - ID: audio-q3
     Events:
     - Description: show A
-      Time: 4.5
+      Time: 4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10981,7 +10992,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 6.5
+      Time: 6.1
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10998,7 +11009,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 9.5
+      Time: 8.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11015,7 +11026,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 11.8
+      Time: 10.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11046,7 +11057,7 @@ MonoBehaviour:
   - ID: audio-q4
     Events:
     - Description: show A
-      Time: 5.2
+      Time: 5.3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11063,7 +11074,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 7.5
+      Time: 7.2
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11080,7 +11091,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 10.3
+      Time: 9.3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11097,7 +11108,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 13.7
+      Time: 11.4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11128,7 +11139,7 @@ MonoBehaviour:
   - ID: audio-q5
     Events:
     - Description: show A
-      Time: 3.7
+      Time: 3.8
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11145,7 +11156,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show B
-      Time: 6
+      Time: 5.8
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11162,7 +11173,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show C
-      Time: 9
+      Time: 8.2
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11179,7 +11190,7 @@ MonoBehaviour:
               m_BoolArgument: 1
             m_CallState: 2
     - Description: show D
-      Time: 11.3
+      Time: 11.9
       Event:
         m_PersistentCalls:
           m_Calls:

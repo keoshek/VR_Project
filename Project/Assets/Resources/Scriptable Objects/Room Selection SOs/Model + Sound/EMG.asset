@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dcfbdf9d1b1af864fb2d4b15be87e65d, type: 3}
-  m_Name: LINAC
+  m_Name: EMG
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableRoomSelectionData
   Icon: {fileID: 21300000, guid: 8db810cbacbd5104595f226341baaf08, type: 3}
-  Name: LINAC
-  SceneName: LINAC
+  Name: EMG
+  SceneName: EMG
   model: 1
-  sound: 0
+  sound: 1
   components: 0

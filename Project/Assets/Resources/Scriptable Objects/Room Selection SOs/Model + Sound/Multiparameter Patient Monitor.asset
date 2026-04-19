@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Multiparameter Patient Monitor
   SceneName: Multiparameter Patient Monitor
   model: 1
-  sound: 0
+  sound: 1
   components: 0

@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Digital Subtraction Angiography
   SceneName: Digital Subtraction Angiography
   model: 1
-  sound: 0
+  sound: 1
   components: 0
