@@ -3,7 +3,17 @@ guid: 0da2102fb13b2a645b73d4359ed3559d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monitor_Material
+    second: {fileID: 2100000, guid: 5c810c3bbbd0343489f50625024a6284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monitor_Rack_Material
+    second: {fileID: 2100000, guid: e7a98ed2fd13dc548866a3e12375372a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

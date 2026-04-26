@@ -410,6 +410,8 @@ MonoBehaviour:
       m_Calls: []
   functions: 0
   onPressAudioSource: {fileID: 0}
+  blinkPeriod: 0
+  blinkMaterial: {fileID: 0}
 --- !u!82 &4666804766430606975
 AudioSource:
   m_ObjectHideFlags: 0

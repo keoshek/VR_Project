@@ -4178,9 +4178,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tablet
   _roomDatas:
-  - {fileID: 11400000, guid: e6b84c13fbb32c04a92f7cb34827a0e0, type: 2}
+  - {fileID: 11400000, guid: 3e21e302f700ea54c9c181a0b75feda2, type: 2}
   - {fileID: 11400000, guid: 682deb222d452e945be17c2332f84ce3, type: 2}
+  - {fileID: 11400000, guid: 23f49446ea9f2cf41ad8413f0d66f3b3, type: 2}
+  - {fileID: 11400000, guid: e6b84c13fbb32c04a92f7cb34827a0e0, type: 2}
+  - {fileID: 11400000, guid: ae49565aa2ddcc24f99259baf50df651, type: 2}
+  - {fileID: 11400000, guid: 66803a71fc77d6746b7be1d96b6f1311, type: 2}
   - {fileID: 11400000, guid: 6feb1f87693aab94cb150487a1c5c581, type: 2}
+  - {fileID: 11400000, guid: 36f6b8d2f5b2e0f4bab0348fed05b212, type: 2}
+  - {fileID: 11400000, guid: 211173ce6328bc7439512b821e6df880, type: 2}
+  - {fileID: 11400000, guid: 593b93eeb5a72ca469e12ed0acbb8d2d, type: 2}
+  - {fileID: 11400000, guid: 6afaf42ef33be774e8b6f3639d2a40bd, type: 2}
+  - {fileID: 11400000, guid: 750dfeeb0f2c382449c7ddc41ea31067, type: 2}
+  - {fileID: 11400000, guid: fc07235214c71d245a5595e0eec413e7, type: 2}
+  - {fileID: 11400000, guid: 064ff510ef5f6824fa746dde3b52af56, type: 2}
+  - {fileID: 11400000, guid: a4e55dd0bcd74b2409abb3d670ce8a8c, type: 2}
+  - {fileID: 11400000, guid: 5ca87a709a2ad234ca8834ebf8f29181, type: 2}
+  - {fileID: 11400000, guid: 8a1943d6e66d7074187b12463fd0c093, type: 2}
+  - {fileID: 11400000, guid: 92c54c88669679e468d4a7498f794a27, type: 2}
+  - {fileID: 11400000, guid: 34a672041dfb69340b87962df759c6f8, type: 2}
+  - {fileID: 11400000, guid: 1bf382a55ca7cb54f99498828069fd02, type: 2}
+  - {fileID: 11400000, guid: 7c705cd28dd1bc94387c848816e4178b, type: 2}
+  - {fileID: 11400000, guid: 3e03b1a8e5ab5a04a93a4f4f8784566b, type: 2}
+  - {fileID: 11400000, guid: e7c1863500247ab4f8a1c5f140cf2de6, type: 2}
+  - {fileID: 11400000, guid: 0f6e6bac4600c974fa1cac810bb53160, type: 2}
 --- !u!65 &8544299582003142125
 BoxCollider:
   m_ObjectHideFlags: 0
