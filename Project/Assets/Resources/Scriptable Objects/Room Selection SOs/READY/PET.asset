@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfbdf9d1b1af864fb2d4b15be87e65d, type: 3}
   m_Name: PET
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableRoomSelectionData
-  Icon: {fileID: 21300000, guid: 8db810cbacbd5104595f226341baaf08, type: 3}
+  Icon: {fileID: 21300000, guid: 65cc7679ca1a55643b833b8c655ec5ef, type: 3}
   Name: PET
   SceneName: PET
   model: 1

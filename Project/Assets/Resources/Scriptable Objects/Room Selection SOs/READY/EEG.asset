@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfbdf9d1b1af864fb2d4b15be87e65d, type: 3}
   m_Name: EEG
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableRoomSelectionData
-  Icon: {fileID: 21300000, guid: 26024383431d5304887f4727257d04e0, type: 3}
+  Icon: {fileID: 21300000, guid: 8e2f91a301d415f4fa564047c46919d7, type: 3}
   Name: EEG
   SceneName: EEG
   model: 1

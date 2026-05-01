@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfbdf9d1b1af864fb2d4b15be87e65d, type: 3}
   m_Name: MRI
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableRoomSelectionData
-  Icon: {fileID: 21300000, guid: e750639bfa804484b918099e0d29b774, type: 3}
+  Icon: {fileID: 21300000, guid: febd0bb291a59ae4b85b0de4d7d5ddbc, type: 3}
   Name: MRI
   SceneName: MRI
   model: 1
