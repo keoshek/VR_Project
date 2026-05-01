@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7905553918922057281}
   - component: {fileID: 8829777867716880331}
   - component: {fileID: 2192991215097202054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: reagent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,8 +66,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c84d319990a844f4e9d5996313745cf6, type: 2}
-  - {fileID: 2100000, guid: 784676f11b718124eaf13e1d61d0481b, type: 2}
+  - {fileID: 2100000, guid: 0870a847df4fc8b4581158a3dbb9c820, type: 2}
+  - {fileID: 2100000, guid: 0870a847df4fc8b4581158a3dbb9c820, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

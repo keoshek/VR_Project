@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7277637368372492750}
   - component: {fileID: 7878796143252083609}
   - component: {fileID: 6829248609911927410}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: nusga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d5dc4e92d5d55f841b39095110a887d7, type: 2}
+  - {fileID: 2100000, guid: 0870a847df4fc8b4581158a3dbb9c820, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
